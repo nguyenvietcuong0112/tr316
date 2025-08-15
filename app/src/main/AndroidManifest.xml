@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.fakevideocall.fakechat.prank.fake.call.app">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:name=".Application"
+        android:allowBackup="true"
+        android:extractNativeLibs="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:targetApi="31">
+
+<!--        <property-->
+<!--            android:name="android.adservices.AD_SERVICES_CONFIG"-->
+<!--            android:resource="@xml/ga_ad_services_config"-->
+<!--            tools:replace="android:resource" />-->
+
+        <activity
+            android:name=".activity.SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <activity
+            android:name=".activity.ActivityLoadNativeFullLanguage"
+            android:theme="@style/Theme.Design.NoActionBar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.videocall.VideoCallDetailsActivity"
+            android:theme="@style/Theme.Design.NoActionBar"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.message.ThemeSelectionMessageActivity"
+            android:theme="@style/Theme.Design.NoActionBar"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.HomeActivity"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name=".activity.videocall.VideoCallActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.audio.AudioCallActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.InterestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.videocall.ThemeSelectionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.GuideActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.videocall.VideoPlayerActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.videocall.CallComingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.audio.AudioPlayerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.videocall.WaitingActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.message.MessageActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.message.ChatActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".utils.ActivityLoadNativeFull"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.SettingActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.IntroActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.LanguageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.PermissionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".utils.LoadNativeFullNew"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/app_id" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.facebook.sdk.ClientToken"
+            android:value="@string/facebook_client_token" />
+        <meta-data
+            android:name="com.facebook.sdk.AutoInitEnabled"
+            android:value="true" />
+        <meta-data
+            android:name="com.facebook.sdk.AutoLogAppEventsEnabled"
+            android:value="true" />
+        <meta-data
+            android:name="com.facebook.sdk.AdvertiserIDCollectionEnabled"
+            android:value="true" />
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true" />
+
+    </application>
+
+
+</manifest>

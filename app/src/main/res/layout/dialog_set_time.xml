@@ -1,0 +1,58 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_timer"
+            android:gravity="center"
+
+            />
+        <TextView
+            android:id="@+id/dialog_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set time after"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:textColor="#3F1B65"
+            android:textSize="18sp"
+            android:fontFamily="@font/londrinasolidbold"
+           />
+
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/time_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:divider="@android:color/darker_gray"
+        android:background="@android:color/white" />
+
+    <Button
+        android:id="@+id/ok_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#F28C24"
+        android:text="OK"
+        android:fontFamily="@font/londrinasolidbold"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+</LinearLayout>

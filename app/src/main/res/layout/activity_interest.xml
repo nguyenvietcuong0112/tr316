@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#F6CC36"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/interest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/londrinasolidbold"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_70sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:textSize="@dimen/_16sdp"
+        android:textColor="#333B86"
+        android:text="Who do you prank the most?"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/btnContinue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/button_state_color"
+        android:clickable="false"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/ic_checked_interest"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:paddingVertical="@dimen/_10sdp"
+        app:layout_constraintTop_toBottomOf="@id/interest"
+        android:background="@drawable/bg_white"
+        android:orientation="vertical">
+        <CheckBox
+            android:id="@+id/cbTrackExpenses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:background="@drawable/interest_selector"
+            android:button="@null"
+            android:padding="12dp"
+            android:fontFamily="@font/londrinasolidbold"
+            android:text="Friends"
+            android:textColor="@color/interest_text_color"
+           />
+
+        <CheckBox
+            android:id="@+id/cbMonitorSavings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/interest_selector"
+            android:button="@null"
+            android:padding="12dp"
+            android:fontFamily="@font/londrinasolidbold"
+            android:text="Family members"
+            android:textColor="@color/interest_text_color"
+            app:layout_constraintTop_toBottomOf="@id/cbTrackExpenses"/>
+
+        <CheckBox
+            android:id="@+id/cbAnalyzeSpending"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/interest_selector"
+            android:button="@null"
+            android:padding="12dp"
+            android:fontFamily="@font/londrinasolidbold"
+            android:text="Coworkers"
+            android:textColor="@color/interest_text_color"
+            app:layout_constraintTop_toBottomOf="@id/cbMonitorSavings"/>
+
+        <CheckBox
+            android:id="@+id/cbOptimizeSpending"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/interest_selector"
+            android:button="@null"
+            android:padding="12dp"
+            android:fontFamily="@font/londrinasolidbold"
+            android:text="Strangers"
+            android:textColor="@color/interest_text_color"
+            app:layout_constraintTop_toBottomOf="@id/cbAnalyzeSpending"/>
+
+        <CheckBox
+            android:id="@+id/cbPlanInvestments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/interest_selector"
+            android:button="@null"
+            android:padding="12dp"
+            android:fontFamily="@font/londrinasolidbold"
+            android:text="My partner"
+            android:textColor="@color/interest_text_color"
+            app:layout_constraintTop_toBottomOf="@id/cbOptimizeSpending"/>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/londrina_solid"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_70sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textSize="@dimen/_12sdp"
+        android:textColor="#5A5A5A"
+        android:text="Please select at least 2 options to continue."
+        app:layout_constraintTop_toBottomOf="@id/list"/>
+
+
+
+    <androidx.core.widget.ContentLoadingProgressBar
+        android:id="@+id/btn_next_loading"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        android:indeterminateTint="#1590EA"
+        android:visibility="visible"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <FrameLayout
+        android:id="@+id/fr_ads"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_ads_native"
+        android:paddingBottom="@dimen/_5sdp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <RelativeLayout
+            android:id="@+id/shimmer_native_language"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include layout="@layout/ads_shimmer_native_language" />
+        </RelativeLayout>
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

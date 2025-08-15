@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Prank Call: Fun Caller</string>
+    <string name="tt_mnu_home">Home</string>
+    <string name="tt_mnu_collection">Collection</string>
+    <string name="tt_mnu_myscan">My scan</string>
+    <string name="tt_mnu_setting">Setting</string>
+    <string name="vibrate">VIBRATE</string>
+    <string name="privacy_policy">https://mohamedezzeldin.netlify.app/policy</string>
+    <string name="languages">Languages</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="done">Done</string>
+    <string name="note_continue1">Choose Your Star &amp; Start the Prank</string>
+    <string name="note_continue2">Simulate Calls with Celebrities Easily</string>
+    <string name="note_continue3">Get Incoming Calls That Look Real</string>
+    <string name="note_continue4">Create Fun Chat Scenarios Effortlessly</string>
+
+    <string name="step1">STEP 1</string>
+    <string name="step2">STEP 2</string>
+    <string name="step3">STEP 3</string>
+    <string name="step4">STEP 4</string>
+    <string name="step_detail1">Click the “continue” button to start walking</string>
+    <string name="step_detail2">Click the “continue” button to start walking</string>
+    <string name="step_detail3">Click the “continue” button to start walking</string>
+    <string name="step_detail4">Click the “continue” button to start walking</string>
+    <string name="note_guide1"></string>
+    <string name="note_guide2"></string>
+    <string name="note_guide3"></string>
+    <string name="note_guide4"></string>
+
+    <string name="txt_this_action_can_contain_ads">This action can contain ads…</string>
+    <string name="start_normarl">Start</string>
+    <string name="text_vibrate">Vibrate</string>
+    <string name="txt_vibrate">Set up vibration mode</string>
+    <string name="text_flash">Flashlight</string>
+    <string name="txt_flash">Customize the flash</string>
+    <string name="text_sound">Sound</string>
+
+    <string name="goto_settings" translatable="false">You must approve this permission in Permissions in the app settings on your device to continue using the app.</string>
+    <string name="settings" translatable="false">Settings</string>
+    <string name="grant_permission" translatable="false"><![CDATA[>Please grant the application permission to continue using the app]]></string>
+    <string name="icomming_video_call">Incomming video call</string>
+    <string name="incoming_call">Incoming Call</string>
+    <string name="active_now">Active now</string>
+    <string name="you_re_friends_on_facebook">You’re friends on Facebook</string>
+    <string name="interest">Interest</string>
+    <string name="office_pranks">Office pranks</string>
+    <string name="family_pranks">Family pranks</string>
+    <string name="fake_emergency_pranks">Fake emergency pranks</string>
+    <string name="fake_job_interview_pranks">Fake job interview pranks</string>
+    <string name="celebrity_impersonations">Celebrity impersonations</string>
+    <string name="annoying_telemarketer_pranks">Annoying telemarketer pranks</string>
+    <string name="please_select_at_least_2_options_to_continue">*Please select at least 2 options to continue.</string>
+    <string name="prank_call">Prankcall</string>
+    <string name="permission">Permission</string>
+    <string name="camera">Camera</string>
+    <string name="allows_storage_or_access_to_your_phone_s_memory_to_function_properly">Allows storage or access to your phone\'s memory to function properly</string>
+
+</resources>

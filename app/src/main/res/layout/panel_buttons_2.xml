@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="@drawable/bg_panel_2"
+    android:padding="12dp">
+
+    <ImageView
+        android:src="@drawable/ic_video2"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_weight="1"
+        android:layout_margin="6dp" />
+
+
+    <ImageView
+        android:src="@drawable/ic_mic2"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_weight="1"
+        android:layout_margin="6dp" />
+
+    <ImageView
+        android:src="@drawable/ic_gallery"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:layout_margin="6dp" />
+
+    <ImageView
+        android:src="@drawable/ic_swap_camera2"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:layout_margin="6dp" />
+
+
+
+    <ImageView
+        android:id="@+id/btnCancel"
+        android:src="@drawable/ic_cancel_call"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:layout_margin="6dp" />
+</LinearLayout>

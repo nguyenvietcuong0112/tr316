@@ -1,0 +1,115 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/_30sdp"
+            android:paddingHorizontal="@dimen/_10sdp"
+            android:paddingBottom="@dimen/_10sdp"
+            android:background="#30204A"
+            >
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#808080"
+                android:src="@drawable/ic_back_setting"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:text="Select templates"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="16dp"
+            android:weightSum="3">
+
+            <!-- Theme 1 -->
+            <FrameLayout
+                android:id="@+id/cardTheme1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="@dimen/_200sdp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/bg_theme_card"
+                android:padding="4dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/theme1" />
+
+                <include layout="@layout/panel_buttons_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:layout_gravity="bottom" />
+            </FrameLayout>
+
+            <!-- Theme 2 -->
+            <FrameLayout
+                android:id="@+id/cardTheme2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="@dimen/_200sdp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/bg_theme_card"
+                android:padding="4dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/theme2" />
+
+                <include layout="@layout/panel_buttons_2"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom" />
+            </FrameLayout>
+
+            <!-- Theme 3 -->
+            <FrameLayout
+                android:id="@+id/cardTheme3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="@dimen/_200sdp"
+                android:background="@drawable/bg_theme_card"
+                android:padding="4dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/theme3" />
+
+                <include layout="@layout/panel_buttons_3"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

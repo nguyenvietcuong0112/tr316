@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //dev
+        <string name="app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+
+        <string name="inter_splash" translatable="false"></string>
+        <string name="inter_home" translatable="false"></string>
+        <string name="native_onboarding1" translatable="false"></string>
+        <string name="native_onboarding2" translatable="false"></string>
+        <string name="native_onboarding3" translatable="false"></string>
+        <string name="native_onboarding4" translatable="false"></string>
+        <string name="native_home" translatable="false"></string>
+        <string name="native_language" translatable="false"></string>
+        <string name="native_language_select" translatable="false"></string>
+        <string name="native_setting" translatable="false"></string>
+
+        <string name="native_permission" translatable="false"></string>
+        <string name="inter_intro" translatable="false"></string>
+        <string name="inter_back_video_call" translatable="false"></string>
+        <string name="inter_back_message" translatable="false"></string>
+
+        <string name="banner_inline_per" translatable="false"></string>
+
+
+    <!--    //new-->
+        <string name="native_full_intro" translatable="false"></string>
+        <string name="native_full_home" translatable="false"></string>
+        <string name="native_full_back_video" translatable="false"></string>
+        <string name="native_full_message" translatable="false"></string>
+        <string name="native_full_language" translatable="false"></string>
+        <string name="native_full_splash" translatable="false"></string>
+
+        <string name="native_expand_home" translatable="false"></string>
+        <string name="native_collap_home" translatable="false"></string>
+
+        <string name="open_resume" translatable="false"></string>
+
+        <string name="banner_collapse_intro" translatable="false"></string>
+
+        <string name="AF_DEV_KEY" translatable="false">LikYKU2zUYTct7BoQ7MuJY</string>
+        <string name="facebook_app_id" translatable="false">1234</string>
+        <string name="facebook_client_token" translatable="false">56789</string>
+
+    //prod
+<!--    <string name="app_id" translatable="false">ca-app-pub-5839511744003864~8324328099</string>-->
+
+<!--    <string name="inter_splash" translatable="false">ca-app-pub-5839511744003864/7159721552</string>-->
+<!--    <string name="inter_home" translatable="false">ca-app-pub-5839511744003864/7425710200</string>-->
+<!--    <string name="native_onboarding1" translatable="false">ca-app-pub-5839511744003864/6382299260</string>-->
+<!--    <string name="native_onboarding2" translatable="false">ca-app-pub-5839511744003864/2826559026</string>-->
+<!--    <string name="native_onboarding3" translatable="false">ca-app-pub-5839511744003864/1513477355</string>-->
+<!--    <string name="native_onboarding4" translatable="false">ca-app-pub-5839511744003864/4590705445</string>-->
+<!--    <string name="native_home" translatable="false">ca-app-pub-5839511744003864/5069217593</string>-->
+<!--    <string name="native_language" translatable="false">ca-app-pub-5839511744003864/5846639884</string>-->
+<!--    <string name="native_language_select" translatable="false">ca-app-pub-5839511744003864/4139640699</string>-->
+<!--    <string name="native_setting" translatable="false">ca-app-pub-5839511744003864/1461091172</string>-->
+
+<!--    <string name="native_permission" translatable="false">ca-app-pub-5839511744003864/6190727573</string>-->
+<!--    <string name="inter_intro" translatable="false">ca-app-pub-5839511744003864/3022834293</string>-->
+<!--    <string name="inter_back_video_call" translatable="false">ca-app-pub-5839511744003864/1709752623</string>-->
+<!--    <string name="inter_back_message" translatable="false">ca-app-pub-5839511744003864/2443054253</string>-->
+
+<!--    <string name="banner_inline_per" translatable="false">ca-app-pub-5839511744003864/9651460432</string>-->
+<!--    <string name="native_expand_home" translatable="false">ca-app-pub-5839511744003864/1025238213</string>-->
+<!--    <string name="native_collap_home" translatable="false">ca-app-pub-5839511744003864/6952352310</string>-->
+<!--    <string name="native_full_splash" translatable="false">ca-app-pub-5839511744003864/5692316934</string>-->
+
+<!--    //new-->
+<!--    <string name="native_full_intro" translatable="false">ca-app-pub-5839511744003864/6147691083</string>-->
+<!--    <string name="native_full_home" translatable="false">ca-app-pub-5839511744003864/6149121708</string>-->
+<!--    <string name="native_full_back_video" translatable="false">ca-app-pub-5839511744003864/1964542101</string>-->
+<!--    <string name="native_full_message" translatable="false">ca-app-pub-5839511744003864/4836040030</string>-->
+<!--    <string name="native_full_language" translatable="false">ca-app-pub-5839511744003864/7216868786</string>-->
+
+
+<!--    <string name="open_resume" translatable="false">ca-app-pub-5839511744003864/3522958367</string>-->
+
+<!--    <string name="banner_collapse_intro" translatable="false">ca-app-pub-5839511744003864/9200395680</string>-->
+
+<!--    <string name="AF_DEV_KEY" translatable="false">LikYKU2zUYTct7BoQ7MuJY</string>-->
+<!--    <string name="facebook_app_id" translatable="false">1892399715026792</string>-->
+<!--    <string name="facebook_client_token" translatable="false">20faa6b759f4870d33597405e43d69a8</string>-->
+</resources>

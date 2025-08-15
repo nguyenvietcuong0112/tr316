@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "675682335835",
+    "project_id": "tr235-prank-call",
+    "storage_bucket": "tr235-prank-call.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675682335835:android:029c63497fe3b826f7137e",
+        "android_client_info": {
+          "package_name": "com.fakevideocall.fakechat.prank.fake.call.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA48HVcFjO9Y2YBXLSXgImj7U8ylw6JgGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
